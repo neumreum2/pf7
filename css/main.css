@@ -1,0 +1,23 @@
+.btn-primary {
+  width: 140px;
+  background-image: none;
+  border-color: #000;
+  background-color: #fff;
+  color: #000;
+  border-radius: 0;
+  line-height: 1.5;
+  text-transform: capitalize;
+  font-size: 13px;
+}
+.btn-primary::after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border: 1px solid #000;
+  transform: rotate(45deg);
+  border-bottom: transparent;
+  border-left: transparent;
+  margin-left: 3px;
+  margin-bottom: 1px;
+}

@@ -1,0 +1,130 @@
+#title .container{
+  padding: 0 40px;
+  padding-left: 23%;
+}
+#title .tslide{
+  width: 97%;
+  margin: 0 auto;
+}
+#title .tslist{
+  position: relative;
+  padding-left: 300px;
+  padding-left: 80px;
+  padding-right: 0;
+}
+#title .tslist .tleft{
+/*   position: fixed;
+  left: 25px;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000; */
+}
+#title .wtleft{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+#title .wtleft .tleft{
+  position: absolute;
+  left: 0px;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 1s;
+  opacity: 0;
+  width: 500px;
+}
+.tleftShow{
+  opacity: 1 !important;
+  left: 60px !important;
+  z-index: 1;
+/*   animation-name: tleftShow;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards; */
+}
+/* @keyframes tleftShow{
+  0%{
+    opacity: 0;
+    left: 0;
+    display: flex;
+  }
+  100%{
+    opacity: 1;
+    left: 60px;
+     display: flex;
+  }
+} */
+#title .slick-dots{
+  display: none !important;
+}
+#title .wtleft .count{
+  transform: translateX(70px) translateY(70px) scale(1.5);
+  padding-bottom: 70px;
+}
+#title .wtleft .count span:nth-child(2) {
+  
+  color: transparent;
+  border: 1px solid #ddd;
+  width: 70px;
+  height: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+#title .wtleft .count .ccount{
+  font-size: 10px;
+  margin-left: 12px;
+  margin-right: 5px;
+}
+#title .wtleft .count .tcount {
+  font-size: 10px;
+  margin-left: 5px;
+}
+/* .slick-dots{
+  display: none !important;
+} */
+
+#title .more{
+  width: 150px;
+  background-image: none;
+  border-color: #000;
+  background-color: #fff;
+  color: #000;
+  border-radius: 0;
+  line-height: 1;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+#title .more::after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border: 1px solid #000;
+  transform: rotate(45deg);
+  border-bottom: transparent;
+  border-left: transparent;
+  vertical-align: inherit;
+  margin-left: 3px;
+}
+
+#title .wtleft .tleft h2 {
+  
+  font-size: 50px;
+}
+#title .wtleft .tleft2 {
+  
+  width: 615px;
+}
+#title .wtleft .tleft2 h2 span {
+  display: inline;
+}
+#title .wtleft .tleft p {
+  margin: 20px 0;
+  height: 100px;
+}
